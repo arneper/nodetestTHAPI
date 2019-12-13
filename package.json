@@ -1,0 +1,19 @@
+{
+  "name": "nodetestthapi",
+  "version": "1.0.0",
+  "description": "test API calls to TH",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arneper/nodetestTHAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arneper/nodetestTHAPI/issues"
+  },
+  "homepage": "https://github.com/arneper/nodetestTHAPI#readme"
+}
