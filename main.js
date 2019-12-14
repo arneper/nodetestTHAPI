@@ -3,7 +3,7 @@ var os = require('os');
 var PORT;
 var boo;
 PORT = process.env.PORT || 5000;
-if (os.hostname().indexOf('local'>-1)) {
+if (os.hostname().indexOf('booo'>-1)) {
     const hostname= '127.0.0.1';
     PORT = 3000;
     console.log('this is where we ended up');
