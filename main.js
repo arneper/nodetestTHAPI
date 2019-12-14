@@ -2,10 +2,10 @@ var http = require("http");
 var os = require('os');
 var PORT;
 
-
 if (os.hostname().indexOf("local">-1)) {
     const hostname= '127.0.0.1';
     PORT = 3000;
+    console.log('this is where we ended up');
 
 } else {
     PORT = process.env.PORT || 5000;
