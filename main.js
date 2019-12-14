@@ -9,8 +9,9 @@ if (os.hostname().indexOf("local">-1)) {
 
 } else {
     PORT = process.env.PORT || 5000;
+    console.log (PORT);
 }
-
+console.log (PORT);
 
 http.createServer(function (request, response) {
    // Send the HTTP header 
@@ -21,7 +22,7 @@ http.createServer(function (request, response) {
    // Send the response body as "Hello World"
    response.end('Hello AP , how are you? \n');
 }).listen(PORT, () => {
-    console.log('Server running on ${PORT}/');
+    console.log(`Server running on ${PORT}/`);
 });
 
 // Console will print the message
