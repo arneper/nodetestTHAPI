@@ -16,6 +16,7 @@ const getBooks = (request, response) => {
       throw error
      
     }
+    console.log('rocking it!')
     response.status(200).json(results.rows)
   })
 }
@@ -28,6 +29,7 @@ const addBook = (request, response) => {
         console.log("uggh")
       throw error
     }
+    console.log('we are doing great')
     response.status(201).json({ status: 'success', message: 'Book added.' })
   })
 }
